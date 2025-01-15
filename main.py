@@ -46,7 +46,7 @@ def check_images(update, context):
 
 # Configuración del bot
 def main():
-    updater = Updater("TOKEN_DEL_BOT", use_context=True)
+    updater = Updater("7636659311:AAE-thy7-5UlW1WWgBgj390hvLnbf2iHQOg", use_context=True)
     dp = updater.dispatcher
 
     dp.add_handler(CommandHandler("check_images", check_images))
